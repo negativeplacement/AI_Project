@@ -1,3 +1,5 @@
 # AI_Project
 
 This report presents the first phase of the project focused on classifying museum environmental images into indoor and outdoor contexts using structural tree-based machine learning models. Utilizing a dataset consisting of 5,000 indoor and 5,000 outdoor museum images, we established an end-to-end pipeline involving three-channel spatial normalization, 150-component Principal Component Analysis (PCA) feature compression, and structural tree classification. We contrast a highly regularized Supervised Decision Tree with an eXtreme Gradient Boosting (XGBClassifier) and a transductive semi-supervised LabelSpreading framework. Our empirical results reveal distinct computational tradeoffs, demonstrating that while strict cost-complexity pruning stabilizes single-tree variance, ensemble gradient boosting optimizes interaction paths across high-dimensional visual tensors, and graph-based semi-supervised methods offer viable alternatives under restricted ground-truth data budgets.
+
+When executing change the path to your dataset
